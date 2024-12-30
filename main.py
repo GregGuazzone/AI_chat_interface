@@ -4,7 +4,7 @@ from ai_chat import AIChat
 
 def main():
     df = pd.read_csv('test.csv')
-    print("I am an AI assistant, here is your DataFrame:")
+    print("Here is your DataFrame:")
     print(df)
     ai = AIChat(df)
     while True:
